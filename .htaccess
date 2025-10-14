@@ -1,29 +1,8 @@
-<IfModule mod_mime.c>
-  AddType application/javascript .js
-  AddType text/css .css
-  AddType image/svg+xml .svg
-  AddType image/png .png
-  AddType image/jpeg .jpg
-  AddType image/gif .gif
-</IfModule>
-
-# Habilitar cache para melhor performance
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresByType application/javascript "access plus 1 year"
-  ExpiresByType text/css "access plus 1 year"
-  ExpiresByType image/svg+xml "access plus 1 year"
-  ExpiresByType image/png "access plus 1 year"
-  ExpiresByType image/jpeg "access plus 1 year"
-  ExpiresByType image/gif "access plus 1 year"
-</IfModule>
-
-# Remover cabeçalho X-Powered-By (opcional, segurança)
-Header unset X-Powered-By
-
-# Evitar erro de MIME strict para módulos ES
-<IfModule mod_headers.c>
-  <FilesMatch "\.js$">
-    Header set Content-Type "application/javascript"
-  </FilesMatch>
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
 </IfModule>
