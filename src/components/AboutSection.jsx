@@ -2,14 +2,14 @@ import React from "react";
 
 const AboutPage = () => {
   return (
-    <section className="py-16 bg-white">
+    <section className="py-4 bg-white">
       <div className="container mx-auto max-w-6xl px-4 md:px-8">
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="md:w-1/2">
             <img
               src="/maquina2.png"
               alt="Máquina BB Vending Machine"
-              className="rounded-lg shadow-lg w-full"
+              className="rounded-lg shadow-lg"
             />
           </div>
           <div className="md:w-1/2 text-left">
