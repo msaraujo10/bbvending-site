@@ -7,6 +7,7 @@ import BenefitsPage from "./pages/BenefitsPage.jsx";
 import MachinesPage from "./pages/MachinesPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import MachineDetailPage from "./pages/MachineDetailPage.jsx";
+import AboutPage from "./components/AboutSection.jsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <main className="px-4 md:px-8 max-w-6xl mx-auto">
           <Routes>
             <Route path="/" element={<HomePage />} />
+            <Route path="/sobre" element={<AboutPage />} />
             <Route path="/beneficios" element={<BenefitsPage />} />
             <Route path="/maquinas" element={<MachinesPage />} />
             <Route path="/contato" element={<ContactPage />} />

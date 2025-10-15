@@ -30,6 +30,15 @@ const Header = () => {
           <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
             <li>
               <Link
+                to="/sobre"
+                className="hover:text-blue-600"
+                onClick={() => setIsOpen(false)}
+              >
+                Sobre
+              </Link>
+            </li>
+            <li>
+              <Link
                 to="/beneficios"
                 className="hover:text-blue-600"
                 onClick={() => setIsOpen(false)}
