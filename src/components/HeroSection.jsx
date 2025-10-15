@@ -5,7 +5,7 @@ const HeroSection = () => {
   return (
     <section className="bg-gradient-to-r from-red-50 to-blue-50 py-16 text-center">
       <div className="container mx-auto flex flex-col md:flex-row items-center gap-8">
-        <div className="md:w-1/2 text-left">
+        <div className="md:w-1/2 text-left px-4 md:px-8">
           <h1 className="text-4xl md:text-5xl font-extrabold text-red-700 mb-4">
             PRATICIDADE NA PALMA DA MÃO
           </h1>
@@ -14,7 +14,7 @@ const HeroSection = () => {
             condomínio, clube ou empresa.
           </p>
           <Link
-            to="/quem-somos"
+            to="/sobre"
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition"
           >
             Saiba Mais
