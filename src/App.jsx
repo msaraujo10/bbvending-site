@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <main className="px-4 md:px-8 max-w-6xl mx-auto">
+        <main className="px-4 md:px-8">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/sobre" element={<AboutPage />} />

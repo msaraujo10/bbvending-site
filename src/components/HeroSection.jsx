@@ -12,9 +12,12 @@ const HeroSection = () => {
             Instale agora a BB Vending Machine e gere receita para o seu
             condomínio, clube ou empresa.
           </p>
-          <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition">
+          <Link
+            to="/quem-somos"
+            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition"
+          >
             Saiba Mais
-          </button>
+          </Link>
         </div>
         <div className="md:w-1/2">
           <img
