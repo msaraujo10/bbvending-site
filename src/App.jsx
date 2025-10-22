@@ -4,10 +4,10 @@ import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import BenefitsPage from "./pages/BenefitsPage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
 import MachinesPage from "./pages/MachinesPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import MachineDetailPage from "./pages/MachineDetailPage.jsx";
-import AboutPage from "./components/AboutSection.jsx";
 
 function App() {
   return (

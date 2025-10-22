@@ -18,7 +18,7 @@ const HeroSection = () => {
           Mais conforto, mais eficiência, mais BB!
         </p>
         <Link
-          to="/quem-somos"
+          to="/sobre"
           className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition"
         >
           Saiba Mais
