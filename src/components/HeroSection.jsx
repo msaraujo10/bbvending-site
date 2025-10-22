@@ -4,29 +4,25 @@ import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <section className="bg-gradient-to-r from-red-50 to-blue-50 py-16 text-center">
-      <div className="container mx-auto flex flex-col md:flex-row items-center gap-8">
-        <div className="md:w-1/2 text-left px-4 md:px-8">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-red-700 mb-4">
-            PRATICIDADE NA PALMA DA MÃO
-          </h1>
-          <p className="text-lg mb-6">
-            Instale agora a BB Vending Machine e gere receita para o seu
-            condomínio, clube ou empresa.
-          </p>
-          <Link
-            to="/sobre"
-            className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition"
-          >
-            Saiba Mais
-          </Link>
-        </div>
-        <div className="md:w-1/2">
-          <img
-            src="/maquina-vermelha.png"
-            alt="BB Vending Machine"
-            className="max-w-md mx-auto rounded-lg shadow-lg"
-          />
-        </div>
+      <div className="container mx-auto max-w-4xl px-4 md:px-8">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-blue-800 mb-4">
+          Bem-vindo à BB Vending Machine
+        </h1>
+        <p className="text-lg md:text-xl text-gray-700 mb-8">
+          Inovação, praticidade e sabor ao seu alcance! A BB Vending Machine é
+          especializada na locação e venda de máquinas automáticas de bebidas e
+          snacks, ideais para empresas, condomínios, escolas, academias e locais
+          de grande circulação.
+        </p>
+        <p className="text-lg font-semibold text-gray-800 mb-8">
+          Mais conforto, mais eficiência, mais BB!
+        </p>
+        <Link
+          to="/quem-somos"
+          className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full font-semibold transition"
+        >
+          Saiba Mais
+        </Link>
       </div>
     </section>
   );
