@@ -33,7 +33,7 @@ const HeroSection = () => {
             <img
               src="/maquina2.png"
               alt="Máquina BB Vending Machine"
-              className="rounded-lg shadow-lg w-full max-w-md mx-auto"
+              className="rounded-lg shadow-lg"
             />
           </div>
         </div>
