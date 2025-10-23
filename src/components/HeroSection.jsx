@@ -28,12 +28,12 @@ const HeroSection = () => {
             </Link>
           </div>
 
-          {/* Imagem */}
-          <div className="md:w-1/2">
+          {/* Imagem - tamanho ajustado */}
+          <div className="md:w-1/2 flex justify-center">
             <img
               src="/maquina2.png"
               alt="Máquina BB Vending Machine"
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg w-80 h-auto object-contain" // ← AQUI: tamanho controlado
             />
           </div>
         </div>
