@@ -65,7 +65,7 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <div className="flex mt-4 md:mt-0 space-x-4">
+          <div className="flex mt-4 md:mt-0 space-x-6 md:ml-6">
             <a
               href="https://wa.me/5521964833551"
               target="_blank"
