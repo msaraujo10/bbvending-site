@@ -1,5 +1,5 @@
 import React from "react";
-import aboutsection from "../components/aboutsection.jsx";
+import aboutsection from "../components/AboutSection";
 
 const AboutPage = () => {
   return (
