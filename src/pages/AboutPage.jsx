@@ -11,7 +11,7 @@ const AboutPage = () => {
             <img
               src="/maquina2.png"
               alt="Máquina BB Vending Machine"
-              className="rounded-lg shadow-lg w-full max-w-sm max-h-80 object-cover mx-auto"
+              className="rounded-lg shadow-lg w-full max-w-sm object-cover mx-auto"
             />
           </div>
           <div className="md:w-1/2 text-left">
