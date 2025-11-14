@@ -37,10 +37,11 @@ const AboutPage = () => {
             
           </div>
         </div>
-      </div>
-      <p className="mb-4">
+        <p className="mb-4">
               <MissionVisionValuesSection />
             </p>
+      </div>
+      
     </div>
     
   );
