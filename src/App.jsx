@@ -8,7 +8,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 import MachinesPage from "./pages/MachinesPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import MachineDetailPage from "./pages/MachineDetailPage.jsx";
-import PlanosSection from "./components/PlanosSection.jsx";
+import Planos from "./pages/Planos.jsx";
 
 function App() {
   return (
