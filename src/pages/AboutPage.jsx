@@ -39,11 +39,11 @@ const AboutPage = () => {
         </div>
        
       </div>
-       <p className="mb-4">
+       
+    </div>
+    <p className="mb-4">
               <MissionVisionValuesSection />
             </p>
-    </div>
-    
   );
 };
 
