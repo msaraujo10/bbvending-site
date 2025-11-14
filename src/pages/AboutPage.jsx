@@ -34,13 +34,13 @@ const AboutPage = () => {
               <strong>venda</strong>, <strong>locação</strong> ou{" "}
               <strong>comodato</strong> de máquinas automáticas.
             </p>
-            <p className="mb-4">
-              <MissionVisionValuesSection />
-            </p>
+            
           </div>
         </div>
       </div>
-      
+      <p className="mb-4">
+              <MissionVisionValuesSection />
+            </p>
     </div>
     
   );
