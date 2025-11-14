@@ -38,7 +38,7 @@ const MachineDetailPage = () => {
               {machine.name}
             </h1>
             <h2 className="text-3xl font-extrabold text-red-600 mb-4">
-              {machine.price}
+              A partir de {machine.price}
             </h2>
             <p className="mb-6 text-lg">{machine.description}</p>
 
