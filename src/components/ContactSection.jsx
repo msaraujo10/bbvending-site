@@ -115,7 +115,7 @@ const ContactPage = () => {
             </p>
             <p>📞 (21) 96483-3551</p>
             <p>✉️ bb.vmachine@gmail.com</p>
-            <p><FaInstagram/> @bb.vmachine</p>
+            <p><FaInstagram/>@bb.vmachine</p>
           </div>
         </div>
       </div>
