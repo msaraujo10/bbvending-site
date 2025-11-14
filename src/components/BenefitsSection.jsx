@@ -2,7 +2,7 @@ import React from "react";
 
 const BenefitsSection = () => {
   const benefits = [
-    "Valorização do condomínio e da gestão atual",
+    "Valorização do imóvel e da gestão atual",
     "Geração de receita passiva",
     "Conforto e segurança 24h por dia",
     "Produtos variados para todas as idades",
