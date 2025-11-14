@@ -109,14 +109,7 @@ const ContactPage = () => {
             </button>
           </form>
 
-          <div className="flex mt-4 md:mt-0 space-x-6 md:ml-6 text-center">
-            <p className="font-semibold mb-2">
-              Ou entre em contato diretamente:
-            </p>
-            <p>📞 (21) 96483-3551</p>
-            <p>✉️ bb.vmachine@gmail.com</p>
-            <p><FaInstagram size={12} /> @bb.vmachine</p>
-          </div>
+          
         </div>
       </div>
     </div>
