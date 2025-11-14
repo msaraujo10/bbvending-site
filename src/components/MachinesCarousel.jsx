@@ -12,18 +12,11 @@ const MachinesCarousel = () => {
       description: "Ideal para pequenos espaços e alta rotatividade.",
     },
     {
-      id: "super-combo-max-10g-new",
-      name: "SUPER COMBO MAX 10G NEW",
-      price: "R$ 24.990,00",
-      image: "/SUPER-COMBO-MAX-10G-NEW.png",
+      id: "flex-combo-8g",
+      name: "FLEX COMBO 8G",
+      price: "A partir de R$ 21.990,00",
+      image: "/FLEX-COMBO-8G-m.png",
       description: "Capacidade ampliada para maior variedade de produtos.",
-    },
-    {
-      id: "super-combo-elevador-9g",
-      name: "SUPER COMBO ELEVADOR 9G",
-      price: "R$ 27.990,00",
-      image: "/SUPER-COMBO-ELEVADOR-9G-m.png",
-      description: "Sistema de elevador para produtos mais volumosos.",
     },
   ];
 
