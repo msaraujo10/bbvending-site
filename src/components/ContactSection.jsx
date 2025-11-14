@@ -109,7 +109,7 @@ const ContactPage = () => {
             </button>
           </form>
 
-          <div className="flex mt-8 pt-6 border-t border-gray-200 text-center">
+          <div className="flex mt-4 md:mt-0 space-x-6 md:ml-6 text-center">
             <p className="font-semibold mb-2">
               Ou entre em contato diretamente:
             </p>
