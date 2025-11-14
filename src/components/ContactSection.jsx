@@ -6,7 +6,7 @@ const ContactPage = () => {
   return (
     <div className="py-16 bg-blue-900 text-white">
       <div className="container mx-auto max-w-4xl px-4 md:px-8">
-        <div className="flex bg-white text-gray-800 p-8 rounded-xl shadow-lg">
+        <div className="bg-white text-gray-800 p-8 rounded-xl shadow-lg">
           <p className="text-center mb-6 text-lg">
             Preencha o formulário abaixo e entraremos em contato em breve!
           </p>
