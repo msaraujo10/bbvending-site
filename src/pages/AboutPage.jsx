@@ -1,7 +1,6 @@
 import React from "react";
 import aboutsection from "../components/AboutSection";
-import missionvisionvalues from "../components/MissionVisionValuesSection";
-
+import MissionVisionValuesSection from "../components/MissionVisionValuesSection.jsx";
 const AboutPage = () => {
   return (
     <div className="py-16 bg-white">
