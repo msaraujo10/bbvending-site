@@ -1,6 +1,6 @@
 import React from "react";
 import aboutsection from "../components/AboutSection";
-import MissionVisionValuesSection from "../components/MissionVisionValuesSection.jsx";
+import missionvisionvaluessection from "../components/MissionVisionValuesSection.jsx";
 const AboutPage = () => {
   return (
     <div className="py-16 bg-white">
@@ -33,7 +33,9 @@ const AboutPage = () => {
               <strong>venda</strong>, <strong>locação</strong> ou{" "}
               <strong>comodato</strong> de máquinas automáticas.
             </p>
-            <p><MissionVisionValuesSection /></p>
+            <p className="mb-4">
+              <MissionVisionValuesSection />
+            </p>
           </div>
         </div>
       </div>
