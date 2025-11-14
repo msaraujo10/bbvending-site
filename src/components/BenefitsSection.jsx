@@ -7,7 +7,7 @@ const BenefitsSection = () => {
     "Conforto e segurança 24h por dia",
     "Produtos variados para todas as idades",
     "Instalação rápida e gratuita",
-    "Reposição e Manutenção feitas pela nossa equipe",
+    
   ];
 
   return (
