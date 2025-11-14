@@ -12,7 +12,7 @@ const MachinesGrid = () => {
     },
     {
       id: "super-combo-8g",
-      name: "FLEX COMBO 8G,
+      name: "FLEX COMBO 8G",
       price: "A partir de R$ 21.990,00",
       image: "/FLEX-COMBO-8G-m.png",
       description: "Capacidade ampliada para maior variedade de produtos.",
