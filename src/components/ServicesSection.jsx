@@ -21,7 +21,7 @@ const ServicesSection = () => {
             <h3 className="text-xl font-bold text-blue-800 mb-4">
               Abastecimento e Manutenção
             </h3>
-            <p></p> 
+            <p>
 
 Cuidamos da manutenção preventiva e corretiva nos planos de locação. O abastecimento fazemos de acordo com o modelo de negócio escolhido.
             </p>
@@ -32,11 +32,14 @@ Cuidamos da manutenção preventiva e corretiva nos planos de locação. O abast
             </h3>
             <p>Personalizamos sua máquina conforme o perfil do seu público:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Bebidas frias (refrigerantes, sucos, águas)</li>
               <li>
-                Snacks e alimentos (salgadinhos, doces, biscoitos, barras de
-                cereal e muito mais)
+
+Bebidas frias: refrigerantes, águas, cervejas, isotônicos, sucos, água de côco, bebidas lácteas, whey protein shake, cappuccino gelado, drinks e vinhos em lata. 
               </li>
+              <li>
+Snacks e alimentos: biscoitos, amendoins, castanha de caju, mix de cereais, batata frita, sanduíches, macarrão instantâneo, snacks proteicos e integrais, barras de cereais  e de proteínas, bolos, chocolates e muito mais.
+              </li>
+              
             </ul>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
