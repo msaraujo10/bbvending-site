@@ -30,7 +30,7 @@ const Header = () => {
           <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
             <li>
               <Link
-                to="/sobre"
+                to="/quem-somos"
                 className="hover:text-blue-600"
                 onClick={() => setIsOpen(false)}
               >
