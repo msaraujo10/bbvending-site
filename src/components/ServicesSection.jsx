@@ -21,10 +21,9 @@ const ServicesSection = () => {
             <h3 className="text-xl font-bold text-blue-800 mb-4">
               Abastecimento e Manutenção
             </h3>
-            <p>
-              Cuidamos de tudo: do abastecimento à manutenção preventiva e
-              corretiva. Garantimos o funcionamento contínuo e o estoque sempre
-              cheio com produtos de qualidade.
+            <p></p> 
+
+Cuidamos da manutenção preventiva e corretiva nos planos de locação. O abastecimento fazemos de acordo com o modelo de negócio escolhido.
             </p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
@@ -33,7 +32,6 @@ const ServicesSection = () => {
             </h3>
             <p>Personalizamos sua máquina conforme o perfil do seu público:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Bebidas quentes (cafés, cappuccinos, chocolates, chás)</li>
               <li>Bebidas frias (refrigerantes, sucos, águas)</li>
               <li>
                 Snacks e alimentos (salgadinhos, doces, biscoitos, barras de
