@@ -8,6 +8,7 @@ import AboutPage from "./pages/AboutPage.jsx";
 import MachinesPage from "./pages/MachinesPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 import MachineDetailPage from "./pages/MachineDetailPage.jsx";
+import PlanosSection from "./components/PlanosSection.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/sobre" element={<AboutPage />} />
             <Route path="/beneficios" element={<BenefitsPage />} />
             <Route path="/maquinas" element={<MachinesPage />} />
+            <Route path="/planos" element={<Planos/>} />
             <Route path="/contato" element={<ContactPage />} />
             <Route path="/maquina/:id" element={<MachineDetailPage />} />
           </Routes>
