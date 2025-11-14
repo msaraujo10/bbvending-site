@@ -33,17 +33,20 @@ const AboutPage = () => {
               cliente é único — por isso oferecemos planos sob medida, seja para{" "}
               <strong>venda</strong>, <strong>locação</strong> ou{" "}
               <strong>comodato</strong> de máquinas automáticas.
-            </p>
-            
+            </p>            
           </div>
+          <div className="md:w-1/2">
+          <p className="mb-4">
+              <MissionVisionValuesSection />
+          </p>
+          </div>
+            
         </div>
        
       </div>
        
     </div>
-    <p className="mb-4">
-              <MissionVisionValuesSection />
-            </p>
+    
   );
 };
 
