@@ -37,8 +37,9 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
+      <MissionVisionValuesSection />
     </div>
-    <MissionVisionValuesSection />
+    
   );
 };
 
