@@ -33,11 +33,11 @@ const AboutPage = () => {
               <strong>venda</strong>, <strong>locação</strong> ou{" "}
               <strong>comodato</strong> de máquinas automáticas.
             </p>
-            
+            <p><MissionVisionValuesSection /></p>
           </div>
         </div>
       </div>
-      <MissionVisionValuesSection />
+      
     </div>
     
   );
