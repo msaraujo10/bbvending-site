@@ -6,14 +6,14 @@ const MachinesGrid = () => {
     {
       id: "flex-combo-6g",
       name: "FLEX COMBO 6G",
-      price: "R$ 17.990,00",
+      price: "A partir de R$ 17.990,00",
       image: "/FLEX-COMBO-6G-m.png",
       description: "Ideal para pequenos espaços e alta rotatividade.",
     },
     {
       id: "flex-combo-8g",
       name: "FLEX COMBO 8G",
-      price: "R$ 21.990,00",
+      price: "A partir de R$ 21.990,00",
       image: "/FLEX-COMBO-8G-m.png",
       description: "Capacidade ampliada para maior variedade de produtos.",
     },
