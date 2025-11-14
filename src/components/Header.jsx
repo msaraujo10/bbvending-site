@@ -34,7 +34,7 @@ const Header = () => {
                 className="hover:text-blue-600"
                 onClick={() => setIsOpen(false)}
               >
-                Sobre
+                Quem Somos
               </Link>
             </li>
             <li>
