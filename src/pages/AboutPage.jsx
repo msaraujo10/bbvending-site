@@ -46,4 +46,4 @@ const AboutPage = () => {
   );
 };
 
-export default aboutsection;
+export default AboutPage;
