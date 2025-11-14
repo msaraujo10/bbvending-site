@@ -18,7 +18,7 @@ function App() {
         <main className="px-4 md:px-8">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/sobre" element={<AboutPage />} />
+            <Route path="/quem-somos" element={<AboutPage />} />
             <Route path="/beneficios" element={<BenefitsPage />} />
             <Route path="/maquinas" element={<MachinesPage />} />
             <Route path="/planos" element={<Planos/>} />
