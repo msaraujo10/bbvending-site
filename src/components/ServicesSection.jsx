@@ -32,12 +32,9 @@ Cuidamos da manutenção preventiva e corretiva nos planos de locação. O abast
             </h3>
             <p>Personalizamos sua máquina conforme o perfil do seu público:</p>
             <ul className="list-disc pl-6 space-y-2">
-              <li>
-
-Bebidas frias: refrigerantes, águas, cervejas, isotônicos, sucos, água de côco, bebidas lácteas, whey protein shake, cappuccino gelado, drinks e vinhos em lata. 
+              <li>Bebidas frias: refrigerantes, águas, cervejas, isotônicos, sucos, água de côco, bebidas lácteas, whey protein shake, cappuccino gelado, drinks e vinhos em lata. 
               </li>
-              <li>
-Snacks e alimentos: biscoitos, amendoins, castanha de caju, mix de cereais, batata frita, sanduíches, macarrão instantâneo, snacks proteicos e integrais, barras de cereais  e de proteínas, bolos, chocolates e muito mais.
+              <li>Snacks e alimentos: biscoitos, amendoins, castanha de caju, mix de cereais, batata frita, sanduíches, macarrão instantâneo, snacks proteicos e integrais, barras de cereais  e de proteínas, bolos, chocolates e muito mais.
               </li>
               
             </ul>
