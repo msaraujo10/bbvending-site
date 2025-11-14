@@ -9,7 +9,7 @@ const AboutPage = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="md:w-1/2">
             <img
-              src="/maquina2.png"
+              src="/maquina-vermelha.png"
               alt="Máquina BB Vending Machine"
               className="rounded-lg shadow-lg max-w-sm object-cover mx-auto"
             />
