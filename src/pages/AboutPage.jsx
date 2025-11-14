@@ -1,5 +1,4 @@
 import React from "react";
-import aboutsection from "../components/AboutSection";
 import MissionVisionValuesSection from "../components/MissionVisionValuesSection.jsx";
 
 const AboutPage = () => {
@@ -35,18 +34,13 @@ const AboutPage = () => {
               <strong>comodato</strong> de máquinas automáticas.
             </p>            
           </div>
-          <div className="md:w-1/2">
-          <p className="mb-4">
-              <MissionVisionValuesSection />
-          </p>
-          </div>
-            
         </div>
-       
+        {/* Aqui vai a seção de Missão, Visão e Valores, abaixo do "Quem Somos" */}
+        <div className="mt-12">
+          <MissionVisionValuesSection />
+        </div>
       </div>
-       
     </div>
-    
   );
 };
 
