@@ -1,5 +1,6 @@
 import React from "react";
 import aboutsection from "../components/AboutSection";
+import missionvisionvalues from "../components/MissionVisionValuesSection";
 
 const AboutPage = () => {
   return (
@@ -33,6 +34,7 @@ const AboutPage = () => {
               <strong>venda</strong>, <strong>locação</strong> ou{" "}
               <strong>comodato</strong> de máquinas automáticas.
             </p>
+            <MissionVisionValuesSection />
           </div>
         </div>
       </div>
